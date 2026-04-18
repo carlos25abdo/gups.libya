@@ -549,16 +549,11 @@ img {
     z-index: 0;
 }
 
-.image-placeholder {
+.chairman-img {
     width: 100%;
     height: 450px;
-    background-color: var(--clr-gray-dark);
+    object-fit: cover;
     border-radius: var(--br-lg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 6rem;
-    color: var(--clr-white);
     position: relative;
     z-index: 1;
     box-shadow: var(--shadow-lg);
@@ -1364,8 +1359,7 @@ img {
         grid-template-columns: 1fr; 
     }
     
-    .chairman-image .image-placeholder {
+    .chairman-image .chairman-img {
         height: 350px;
-        font-size: 4rem;
     }
 }
